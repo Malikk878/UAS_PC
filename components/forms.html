@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/forms-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"/>
+    <title>Poster Viewer & Downloader</title>
+</head>
+<body>
+    
+    <!-- Navigasi Utama -->
+    <nav>
+        <header>
+            <a href="../index.html" class="logo">Pervasive Computing.</a>
+
+            <ul class="nav-list">
+                <li><a href="./proposal.html">Proposal</a></li>
+                <li><a href="./proposal.html">Video Player</a></li>
+                <li><a href="./forms.html">Poster</a></li>
+            </ul>
+
+            <!-- Icon menu pada mobile -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+    </nav>
+
+    <!-- Bagian utama untuk menampilkan poster -->
+    <section class="hero">
+        <div class="container">
+            <h4>Poster Viewer & Downloader</h4>
+            
+            <!-- Poster -->
+            <div class="poster-container">
+                <iframe 
+                    src="https://drive.google.com/file/d/1rU6xckgUmGwED6VZ7NLHbgO34S-snLD-/preview" 
+                    width="100%" 
+                    height="600px" 
+                    style="border: none; border-radius: 10px;">
+                </iframe>
+            </div>
+
+            <!-- Tombol Unduh -->
+            <div class="download-container">
+                <a href="https://drive.google.com/uc?export=download&id=1rU6xckgUmGwED6VZ7NLHbgO34S-snLD-" 
+                   download 
+                   class="btn">
+                   Download Poster
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon untuk media sosial -->
+    <div class="sosmed">
+        <a href="https://www.instagram.com/yogiitmbnn_" target="_blank"><i class="ri-instagram-line ig"></i></a>
+        <a href="https://www.youtube.com/@xiigoy" target="_blank"><i class="ri-youtube-line yt"></i></a>
+        <a href="https://twitter.com/@zzyvnxx" target="_blank"><i class="ri-twitter-line twt"></i></a>
+    </div>
+
+    <!-- Library Javascript untuk efek scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>

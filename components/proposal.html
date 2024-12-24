@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/proposal-style.css">
+
+    <!-- File CSS eksternal untuk icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"/>
+    <title>Proposal Viewer & Downloader</title>
+</head>
+<body>
+
+    <!-- Navigasi Utama -->
+    <nav>
+        <header>
+            <a href="../index.html" class="logo">Pervasive Computing.</a>
+
+            <ul class="nav-list">
+                <li><a href="./proposal.html">Proposal</a></li>
+                <li><a href="./cart.html">Video Player</a></li>
+                <li><a href="./forms.html">Poster</a></li>
+            </ul>
+
+            <!-- Icon menu pada mobile -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+    </nav>
+
+    <!-- Bagian utama untuk menampilkan proposal -->
+    <section class="hero">
+        <div class="container">
+            <h4>Proposal Viewer & Downloader</h4>
+            
+            <!-- Viewer untuk proposal -->
+            <div class="proposal-container">
+                <iframe 
+                    src="https://drive.google.com/file/d/1Ol1iVoEhmTe6gIpNd2ZtQNSY7xa575hu/preview" 
+                    width="100%" 
+                    height="600px" 
+                    style="border: none; border-radius: 10px;">
+                </iframe>
+            </div>
+
+            <!-- Tombol Unduh Proposal -->
+            <div class="download-container">
+                <a href="https://drive.google.com/uc?export=download&id=1Ol1iVoEhmTe6gIpNd2ZtQNSY7xa575hu" 
+                   download 
+                   class="btn">
+                   Download Proposal
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon untuk media sosial -->
+    <div class="sosmed">
+        <a href="https://www.instagram.com/yogiitmbnn_" target="_blank"><i class="ri-instagram-line ig"></i></a>
+        <a href="https://www.youtube.com/@xiigoy" target="_blank"><i class="ri-youtube-line yt"></i></a>
+        <a href="https://twitter.com/@zzyvnxx" target="_blank"><i class="ri-twitter-line twt"></i></a>
+    </div>
+
+    <!-- Library Javascript untuk efek scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
